@@ -21,9 +21,8 @@ function NowButton({ t, handleChange }) {
       <button
         css={css`
           ${buttons.button}
-          ${buttons.default}
-    ${buttons.lightBlue}
-    ${buttons.small}
+    ${buttons.small};
+    font-weight: bold;
         `}
         onClick={() => {
           handleChange(moment());
